@@ -1,0 +1,169 @@
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36435 : Starting execution of workflow [wf_CDW_UAS] in folder [Devloper2] last saved by user [infouser].
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_44206 : Workflow wf_CDW_UAS started with run id [309], run instance name [], run type [Concurrent Run Disabled].
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_44195 : Workflow [wf_CDW_UAS] service level [SLPriority:5,SLDispatchWaitTime:1800].
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_44253 : Workflow started. Clients will be notified
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36330 : Start task instance [Start]: Execution started.
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36318 : Start task instance [Start]: Execution succeeded.
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36505 : Link [Start --> s_m_CDW_UAS_D_COLLEGE]: empty expression string, evaluated to TRUE.
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36505 : Link [Start --> s_m_CDW_UAS_D_STUDENT]: empty expression string, evaluated to TRUE.
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36505 : Link [Start --> s_m_CDW_UAS_D_FACULTY]: empty expression string, evaluated to TRUE.
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36505 : Link [Start --> s_m_CDW_UAS_D_DEPARTMENT]: empty expression string, evaluated to TRUE.
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36505 : Link [Start --> s_m_CDW_UAS_D_TIME]: empty expression string, evaluated to TRUE.
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36388 : Session task instance [s_m_CDW_UAS_D_COLLEGE] is waiting to be started.
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36388 : Session task instance [s_m_CDW_UAS_D_STUDENT] is waiting to be started.
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36388 : Session task instance [s_m_CDW_UAS_D_FACULTY] is waiting to be started.
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36388 : Session task instance [s_m_CDW_UAS_D_DEPARTMENT] is waiting to be started.
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36388 : Session task instance [s_m_CDW_UAS_D_TIME] is waiting to be started.
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36682 : Session task instance [s_m_CDW_UAS_D_COLLEGE]: started a process with pid [5192] on node [node01].
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36330 : Session task instance [s_m_CDW_UAS_D_COLLEGE]: Execution started.
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36682 : Session task instance [s_m_CDW_UAS_D_STUDENT]: started a process with pid [3152] on node [node01].
+2022-04-11 23:59:29 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36330 : Session task instance [s_m_CDW_UAS_D_STUDENT]: Execution started.
+2022-04-11 23:59:29 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36682 : Session task instance [s_m_CDW_UAS_D_FACULTY]: started a process with pid [2512] on node [node01].
+2022-04-11 23:59:29 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36330 : Session task instance [s_m_CDW_UAS_D_FACULTY]: Execution started.
+2022-04-11 23:59:29 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36682 : Session task instance [s_m_CDW_UAS_D_TIME]: started a process with pid [5272] on node [node01].
+2022-04-11 23:59:29 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36330 : Session task instance [s_m_CDW_UAS_D_TIME]: Execution started.
+2022-04-11 23:59:29 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36682 : Session task instance [s_m_CDW_UAS_D_DEPARTMENT]: started a process with pid [6120] on node [node01].
+2022-04-11 23:59:29 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36330 : Session task instance [s_m_CDW_UAS_D_DEPARTMENT]: Execution started.
+2022-04-11 23:59:31 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_COLLEGE] : [TM_6793 Fetching initialization properties from the Integration Service. : (Mon Apr 11 23:59:31 2022)]
+2022-04-11 23:59:31 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_COLLEGE] : [DISP_20305 The [Preparer] DTM with process id [5192] is running on node [node01].
+ : (Mon Apr 11 23:59:31 2022)]
+2022-04-11 23:59:31 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_COLLEGE] : [PETL_24036 Beginning the prepare phase for the session.]
+2022-04-11 23:59:31 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_COLLEGE] : [TM_6721 Started [Connect to Repository].]
+2022-04-11 23:59:31 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_COLLEGE] : [TM_6722 Finished [Connect to Repository].  It took [0.156262] seconds.]
+2022-04-11 23:59:31 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_COLLEGE] : [TM_6794 Connected to repository [Repo_Academy] in domain [Domain_Training] as user [infouser] in security domain [Native].]
+2022-04-11 23:59:31 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_COLLEGE] : [TM_6721 Started [Fetch Session from Repository].]
+2022-04-11 23:59:31 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_COLLEGE] : [TM_6722 Finished [Fetch Session from Repository].  It took [0.093751] seconds.]
+2022-04-11 23:59:31 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_COLLEGE] : [TM_6721 Started [Partition Group Formation].]
+2022-04-11 23:59:31 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_COLLEGE] : [TM_6722 Finished [Partition Group Formation].  It took [0.015619] seconds.]
+2022-04-11 23:59:31 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_COLLEGE] : [PETL_24037 Finished the prepare phase for the session.]
+2022-04-11 23:59:31 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_COLLEGE] : [TM_6792 Notifying the Integration Service that the prepare phase has been completed. : (Mon Apr 11 23:59:31 2022)]
+2022-04-11 23:59:31 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_STUDENT] : [TM_6793 Fetching initialization properties from the Integration Service. : (Mon Apr 11 23:59:31 2022)]
+2022-04-11 23:59:31 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_STUDENT] : [DISP_20305 The [Preparer] DTM with process id [3152] is running on node [node01].
+ : (Mon Apr 11 23:59:31 2022)]
+2022-04-11 23:59:31 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_STUDENT] : [PETL_24036 Beginning the prepare phase for the session.]
+2022-04-11 23:59:31 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_STUDENT] : [TM_6721 Started [Connect to Repository].]
+2022-04-11 23:59:31 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_STUDENT] : [TM_6722 Finished [Connect to Repository].  It took [0.156251] seconds.]
+2022-04-11 23:59:31 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_STUDENT] : [TM_6794 Connected to repository [Repo_Academy] in domain [Domain_Training] as user [infouser] in security domain [Native].]
+2022-04-11 23:59:31 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_STUDENT] : [TM_6721 Started [Fetch Session from Repository].]
+2022-04-11 23:59:31 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_STUDENT] : [TM_6722 Finished [Fetch Session from Repository].  It took [0.109385] seconds.]
+2022-04-11 23:59:31 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_STUDENT] : [TM_6721 Started [Partition Group Formation].]
+2022-04-11 23:59:31 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_STUDENT] : [TM_6722 Finished [Partition Group Formation].  It took [0.031244] seconds.]
+2022-04-11 23:59:31 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_STUDENT] : [PETL_24037 Finished the prepare phase for the session.]
+2022-04-11 23:59:31 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_STUDENT] : [TM_6792 Notifying the Integration Service that the prepare phase has been completed. : (Mon Apr 11 23:59:31 2022)]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_FACULTY] : [TM_6793 Fetching initialization properties from the Integration Service. : (Mon Apr 11 23:59:31 2022)]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_FACULTY] : [DISP_20305 The [Preparer] DTM with process id [2512] is running on node [node01].
+ : (Mon Apr 11 23:59:31 2022)]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_FACULTY] : [PETL_24036 Beginning the prepare phase for the session.]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_FACULTY] : [TM_6721 Started [Connect to Repository].]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_FACULTY] : [TM_6722 Finished [Connect to Repository].  It took [0.171875] seconds.]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_FACULTY] : [TM_6794 Connected to repository [Repo_Academy] in domain [Domain_Training] as user [infouser] in security domain [Native].]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_FACULTY] : [TM_6721 Started [Fetch Session from Repository].]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_FACULTY] : [TM_6722 Finished [Fetch Session from Repository].  It took [0.124997] seconds.]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_FACULTY] : [TM_6721 Started [Partition Group Formation].]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_FACULTY] : [TM_6722 Finished [Partition Group Formation].  It took [0.0156181] seconds.]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_FACULTY] : [PETL_24037 Finished the prepare phase for the session.]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_FACULTY] : [TM_6792 Notifying the Integration Service that the prepare phase has been completed. : (Mon Apr 11 23:59:31 2022)]
+2022-04-11 23:59:31 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_DEPARTMENT] : [TM_6793 Fetching initialization properties from the Integration Service. : (Mon Apr 11 23:59:31 2022)]
+2022-04-11 23:59:31 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_DEPARTMENT] : [DISP_20305 The [Preparer] DTM with process id [6120] is running on node [node01].
+ : (Mon Apr 11 23:59:31 2022)]
+2022-04-11 23:59:31 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_DEPARTMENT] : [PETL_24036 Beginning the prepare phase for the session.]
+2022-04-11 23:59:31 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_DEPARTMENT] : [TM_6721 Started [Connect to Repository].]
+2022-04-11 23:59:31 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_DEPARTMENT] : [TM_6722 Finished [Connect to Repository].  It took [0.171877] seconds.]
+2022-04-11 23:59:31 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_DEPARTMENT] : [TM_6794 Connected to repository [Repo_Academy] in domain [Domain_Training] as user [infouser] in security domain [Native].]
+2022-04-11 23:59:31 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_DEPARTMENT] : [TM_6721 Started [Fetch Session from Repository].]
+2022-04-11 23:59:31 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_DEPARTMENT] : [TM_6722 Finished [Fetch Session from Repository].  It took [0.187502] seconds.]
+2022-04-11 23:59:31 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_DEPARTMENT] : [TM_6721 Started [Partition Group Formation].]
+2022-04-11 23:59:31 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_DEPARTMENT] : [TM_6722 Finished [Partition Group Formation].  It took [0.0156262] seconds.]
+2022-04-11 23:59:31 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_DEPARTMENT] : [PETL_24037 Finished the prepare phase for the session.]
+2022-04-11 23:59:31 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_DEPARTMENT] : [TM_6792 Notifying the Integration Service that the prepare phase has been completed. : (Mon Apr 11 23:59:31 2022)]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_TIME] : [TM_6793 Fetching initialization properties from the Integration Service. : (Mon Apr 11 23:59:31 2022)]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_TIME] : [DISP_20305 The [Preparer] DTM with process id [5272] is running on node [node01].
+ : (Mon Apr 11 23:59:31 2022)]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_TIME] : [PETL_24036 Beginning the prepare phase for the session.]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_TIME] : [TM_6721 Started [Connect to Repository].]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_TIME] : [TM_6722 Finished [Connect to Repository].  It took [0.203121] seconds.]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_TIME] : [TM_6794 Connected to repository [Repo_Academy] in domain [Domain_Training] as user [infouser] in security domain [Native].]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_TIME] : [TM_6721 Started [Fetch Session from Repository].]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_TIME] : [TM_6722 Finished [Fetch Session from Repository].  It took [0.125] seconds.]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_TIME] : [TM_6721 Started [Partition Group Formation].]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_TIME] : [TM_6722 Finished [Partition Group Formation].  It took [0.0156329] seconds.]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_TIME] : [PETL_24037 Finished the prepare phase for the session.]
+2022-04-11 23:59:31 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_D_TIME] : [TM_6792 Notifying the Integration Service that the prepare phase has been completed. : (Mon Apr 11 23:59:31 2022)]
+2022-04-11 23:59:32 : INFO : (4240 | 4636) : (IS | INT_RepoAcademy) : node01 : LM_36318 : Session task instance [s_m_CDW_UAS_D_COLLEGE]: Execution succeeded.
+2022-04-11 23:59:32 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36318 : Session task instance [s_m_CDW_UAS_D_STUDENT]: Execution succeeded.
+2022-04-11 23:59:33 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36318 : Session task instance [s_m_CDW_UAS_D_FACULTY]: Execution succeeded.
+2022-04-11 23:59:33 : INFO : (4240 | 4636) : (IS | INT_RepoAcademy) : node01 : LM_36318 : Session task instance [s_m_CDW_UAS_D_DEPARTMENT]: Execution succeeded.
+2022-04-11 23:59:33 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36318 : Session task instance [s_m_CDW_UAS_D_TIME]: Execution succeeded.
+2022-04-11 23:59:34 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36505 : Link [s_m_CDW_UAS_D_DEPARTMENT --> s_m_CDW_SAPP_D_COURSE]: empty expression string, evaluated to TRUE.
+2022-04-11 23:59:34 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36388 : Session task instance [s_m_CDW_SAPP_D_COURSE] is waiting to be started.
+2022-04-11 23:59:34 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36682 : Session task instance [s_m_CDW_SAPP_D_COURSE]: started a process with pid [6068] on node [node01].
+2022-04-11 23:59:34 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36330 : Session task instance [s_m_CDW_SAPP_D_COURSE]: Execution started.
+2022-04-11 23:59:36 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_SAPP_D_COURSE] : [TM_6793 Fetching initialization properties from the Integration Service. : (Mon Apr 11 23:59:36 2022)]
+2022-04-11 23:59:36 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_SAPP_D_COURSE] : [DISP_20305 The [Preparer] DTM with process id [6068] is running on node [node01].
+ : (Mon Apr 11 23:59:36 2022)]
+2022-04-11 23:59:36 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_SAPP_D_COURSE] : [PETL_24036 Beginning the prepare phase for the session.]
+2022-04-11 23:59:36 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_SAPP_D_COURSE] : [TM_6721 Started [Connect to Repository].]
+2022-04-11 23:59:36 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_SAPP_D_COURSE] : [TM_6722 Finished [Connect to Repository].  It took [0.093745] seconds.]
+2022-04-11 23:59:36 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_SAPP_D_COURSE] : [TM_6794 Connected to repository [Repo_Academy] in domain [Domain_Training] as user [infouser] in security domain [Native].]
+2022-04-11 23:59:36 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_SAPP_D_COURSE] : [TM_6721 Started [Fetch Session from Repository].]
+2022-04-11 23:59:36 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_SAPP_D_COURSE] : [TM_6722 Finished [Fetch Session from Repository].  It took [0.078136] seconds.]
+2022-04-11 23:59:36 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_SAPP_D_COURSE] : [TM_6721 Started [Partition Group Formation].]
+2022-04-11 23:59:36 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_SAPP_D_COURSE] : [TM_6722 Finished [Partition Group Formation].  It took [0] seconds.]
+2022-04-11 23:59:36 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_SAPP_D_COURSE] : [PETL_24037 Finished the prepare phase for the session.]
+2022-04-11 23:59:36 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_SAPP_D_COURSE] : [TM_6792 Notifying the Integration Service that the prepare phase has been completed. : (Mon Apr 11 23:59:36 2022)]
+2022-04-11 23:59:38 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36318 : Session task instance [s_m_CDW_SAPP_D_COURSE]: Execution succeeded.
+2022-04-11 23:59:39 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36505 : Link [s_m_CDW_SAPP_D_COURSE --> s_m_STG_RESULT]: empty expression string, evaluated to TRUE.
+2022-04-11 23:59:39 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36388 : Session task instance [s_m_STG_RESULT] is waiting to be started.
+2022-04-11 23:59:39 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36682 : Session task instance [s_m_STG_RESULT]: started a process with pid [4836] on node [node01].
+2022-04-11 23:59:39 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36330 : Session task instance [s_m_STG_RESULT]: Execution started.
+2022-04-11 23:59:41 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_STG_RESULT] : [TM_6793 Fetching initialization properties from the Integration Service. : (Mon Apr 11 23:59:41 2022)]
+2022-04-11 23:59:41 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_STG_RESULT] : [DISP_20305 The [Preparer] DTM with process id [4836] is running on node [node01].
+ : (Mon Apr 11 23:59:41 2022)]
+2022-04-11 23:59:41 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_STG_RESULT] : [PETL_24036 Beginning the prepare phase for the session.]
+2022-04-11 23:59:41 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_STG_RESULT] : [TM_6721 Started [Connect to Repository].]
+2022-04-11 23:59:41 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_STG_RESULT] : [TM_6722 Finished [Connect to Repository].  It took [0.109372] seconds.]
+2022-04-11 23:59:41 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_STG_RESULT] : [TM_6794 Connected to repository [Repo_Academy] in domain [Domain_Training] as user [infouser] in security domain [Native].]
+2022-04-11 23:59:41 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_STG_RESULT] : [TM_6721 Started [Fetch Session from Repository].]
+2022-04-11 23:59:41 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_STG_RESULT] : [TM_6722 Finished [Fetch Session from Repository].  It took [0.0937428] seconds.]
+2022-04-11 23:59:41 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_STG_RESULT] : [TM_6721 Started [Partition Group Formation].]
+2022-04-11 23:59:41 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_STG_RESULT] : [TM_6722 Finished [Partition Group Formation].  It took [0.0156231] seconds.]
+2022-04-11 23:59:41 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_STG_RESULT] : [PETL_24037 Finished the prepare phase for the session.]
+2022-04-11 23:59:41 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_STG_RESULT] : [TM_6792 Notifying the Integration Service that the prepare phase has been completed. : (Mon Apr 11 23:59:41 2022)]
+2022-04-11 23:59:43 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36318 : Session task instance [s_m_STG_RESULT]: Execution succeeded.
+2022-04-11 23:59:45 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36505 : Link [s_m_STG_RESULT --> s_m_CDW_UAS_F_RESULT]: empty expression string, evaluated to TRUE.
+2022-04-11 23:59:45 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36388 : Session task instance [s_m_CDW_UAS_F_RESULT] is waiting to be started.
+2022-04-11 23:59:45 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36682 : Session task instance [s_m_CDW_UAS_F_RESULT]: started a process with pid [3524] on node [node01].
+2022-04-11 23:59:45 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36330 : Session task instance [s_m_CDW_UAS_F_RESULT]: Execution started.
+2022-04-11 23:59:48 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_RESULT] : [TM_6793 Fetching initialization properties from the Integration Service. : (Mon Apr 11 23:59:47 2022)]
+2022-04-11 23:59:48 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_RESULT] : [DISP_20305 The [Preparer] DTM with process id [3524] is running on node [node01].
+ : (Mon Apr 11 23:59:47 2022)]
+2022-04-11 23:59:48 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_RESULT] : [PETL_24036 Beginning the prepare phase for the session.]
+2022-04-11 23:59:48 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_RESULT] : [TM_6721 Started [Connect to Repository].]
+2022-04-11 23:59:48 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_RESULT] : [TM_6722 Finished [Connect to Repository].  It took [0.10937] seconds.]
+2022-04-11 23:59:48 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_RESULT] : [TM_6794 Connected to repository [Repo_Academy] in domain [Domain_Training] as user [infouser] in security domain [Native].]
+2022-04-11 23:59:48 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_RESULT] : [TM_6721 Started [Fetch Session from Repository].]
+2022-04-11 23:59:48 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_RESULT] : [TM_6722 Finished [Fetch Session from Repository].  It took [0.0625019] seconds.]
+2022-04-11 23:59:48 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_RESULT] : [TM_6721 Started [Partition Group Formation].]
+2022-04-11 23:59:48 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_RESULT] : [TM_6722 Finished [Partition Group Formation].  It took [0.0156078] seconds.]
+2022-04-11 23:59:48 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_RESULT] : [PETL_24037 Finished the prepare phase for the session.]
+2022-04-11 23:59:48 : INFO : (4240 | 4640) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_RESULT] : [TM_6792 Notifying the Integration Service that the prepare phase has been completed. : (Mon Apr 11 23:59:48 2022)]
+2022-04-11 23:59:49 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36318 : Session task instance [s_m_CDW_UAS_F_RESULT]: Execution succeeded.
+2022-04-11 23:59:50 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36505 : Link [s_m_CDW_UAS_F_RESULT --> s_m_CDW_UAS_F_AGG_DATA]: empty expression string, evaluated to TRUE.
+2022-04-11 23:59:50 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36388 : Session task instance [s_m_CDW_UAS_F_AGG_DATA] is waiting to be started.
+2022-04-11 23:59:50 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36682 : Session task instance [s_m_CDW_UAS_F_AGG_DATA]: started a process with pid [5356] on node [node01].
+2022-04-11 23:59:50 : INFO : (4240 | 4644) : (IS | INT_RepoAcademy) : node01 : LM_36330 : Session task instance [s_m_CDW_UAS_F_AGG_DATA]: Execution started.
+2022-04-11 23:59:52 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_AGG_DATA] : [TM_6793 Fetching initialization properties from the Integration Service. : (Mon Apr 11 23:59:52 2022)]
+2022-04-11 23:59:52 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_AGG_DATA] : [DISP_20305 The [Preparer] DTM with process id [5356] is running on node [node01].
+ : (Mon Apr 11 23:59:52 2022)]
+2022-04-11 23:59:52 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_AGG_DATA] : [PETL_24036 Beginning the prepare phase for the session.]
+2022-04-11 23:59:52 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_AGG_DATA] : [TM_6721 Started [Connect to Repository].]
+2022-04-11 23:59:52 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_AGG_DATA] : [TM_6722 Finished [Connect to Repository].  It took [0.0937569] seconds.]
+2022-04-11 23:59:52 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_AGG_DATA] : [TM_6794 Connected to repository [Repo_Academy] in domain [Domain_Training] as user [infouser] in security domain [Native].]
+2022-04-11 23:59:52 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_AGG_DATA] : [TM_6721 Started [Fetch Session from Repository].]
+2022-04-11 23:59:52 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_AGG_DATA] : [TM_6722 Finished [Fetch Session from Repository].  It took [0.0781119] seconds.]
+2022-04-11 23:59:52 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_AGG_DATA] : [TM_6721 Started [Partition Group Formation].]
+2022-04-11 23:59:52 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_AGG_DATA] : [TM_6722 Finished [Partition Group Formation].  It took [0.015646] seconds.]
+2022-04-11 23:59:52 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_AGG_DATA] : [PETL_24037 Finished the prepare phase for the session.]
+2022-04-11 23:59:52 : INFO : (4240 | 4632) : (IS | INT_RepoAcademy) : node01 : LM_36488 : Session task instance [s_m_CDW_UAS_F_AGG_DATA] : [TM_6792 Notifying the Integration Service that the prepare phase has been completed. : (Mon Apr 11 23:59:52 2022)]
+2022-04-11 23:59:53 : INFO : (4240 | 4628) : (IS | INT_RepoAcademy) : node01 : LM_36318 : Session task instance [s_m_CDW_UAS_F_AGG_DATA]: Execution succeeded.
+2022-04-11 23:59:54 : INFO : (4240 | 4624) : (IS | INT_RepoAcademy) : node01 : LM_36318 : Workflow [wf_CDW_UAS]: Execution succeeded.
