@@ -49,4 +49,4 @@ To set up the project, follow these steps:
    
     Utilize XML mappings and workflows to comprehend the system's architecture and ingest the full source data (full batch load) into the target tables. This approach enables tracking changes (inserts, updates,       deletes, unchanged) and maintaining historical data in the dimension tables.
   
-    A more effective approach could involve creating partitioned target tables based on batch load data and incorporating the batch date into the composite primary key, facilitating easier and more efficient          Change Data Capture (CDC).
+    A more effective approach could involve creating partitioned target tables based on batch load date and incorporating the batch date into the composite primary key, facilitating easier and more efficient          Change Data Capture (CDC).
