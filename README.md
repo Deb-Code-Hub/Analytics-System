@@ -1,6 +1,6 @@
 # University Analytics System
 
-This repository contains the implementation of an analytics system that utilizes Informatica PowerCenter as an ETL tool to integrate data from various sources into a Data Warehouse with a Star Schema. The system is designed to handle Slowly Changing Dimensions (Type I and Type II).
+This repository contains the implementation of an university analytics system that utilizes Informatica PowerCenter as an ETL tool to integrate data from various sources into a Data Warehouse with a Star Schema. The system is designed to handle Slowly Changing Dimensions (Type I and Type II).
 
 ## Description
 
