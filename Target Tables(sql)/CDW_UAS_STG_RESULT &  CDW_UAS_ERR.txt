@@ -1,0 +1,24 @@
+create table CDW_UAS_STG_RESULT
+(
+CDW_P_RESULT_DSET_KEY int,
+RESULT_F_PERIOD_KEY varchar(8),
+RESULT_F_Student_KEY int,
+RESULT_F_DEPARTMENT_KEY int,
+RESULT_F_COLLEGE_CODE int,
+RESULT_F_COLLEGE_NAME varchar(25),
+RESULT_F_COURSE_CODE int,
+RESULT_F_COURSE_NAME varchar(30),
+RESULT_F_FACULTY_NO int,
+RESULT_MARKS int,
+RESULT_GRADE varchar(10),
+CREATED_DATE timestamp(0),
+CREATED_BY varchar(40)
+);
+---------------------------------------------------
+create table CDW_UAS_ERR
+(
+CDW_P_RESULT_DSET_KEY int,
+ERROR_CODE int,
+ERR_MSG varchar(100),
+ERR_COLUMN_NM varchar(25)
+);

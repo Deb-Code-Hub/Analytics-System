@@ -1,0 +1,10 @@
+create table CDW_UAS_D_COLLEGE
+(
+COLLEGE_CODE number(9),
+COLLEGE_NAME varchar2(25),
+COLLEGE_STREET varchar2(30),
+COLLEGE_CITY varchar2(30),
+COLLEGE_STATE varchar2(30),
+COLLEGE_ZIP number(7),
+COLLEGE_PHONE varchar2(13)
+);
