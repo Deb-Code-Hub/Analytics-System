@@ -37,15 +37,17 @@ The system handles Slowly Changing Dimensions to manage changes in dimension dat
 
 To set up the project, follow these steps:
 
-1.Download and Install Informatica PowerCenter:
+1. Download and Install Informatica PowerCenter:
 
-  Visit the official Informatica PowerCenter Downloads page to download and install the software.
+    Visit the official Informatica PowerCenter Downloads page to download and install the software.
+
+     https://www.informatica.com/download.html?form=MG0AV3
    
-2. Clone the repository:
+3. Clone the repository:
    ```sh
    git clone https://github.com/Deb-Code-Hub/Analytics-System.git
 
-3. Launch the XML files in Informatica PowerCenter:
+4. Launch the XML files in Informatica PowerCenter:
    
     Utilize XML mappings and workflows to comprehend the system's architecture and ingest the full source data (full batch load) into the target tables. This approach enables tracking changes (inserts, updates,       deletes, unchanged) and maintaining historical data in the dimension tables.
   
