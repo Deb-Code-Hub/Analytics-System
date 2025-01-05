@@ -45,7 +45,7 @@ To set up the project, follow these steps:
    ```sh
    git clone https://github.com/Deb-Code-Hub/Analytics-System.git
 
-3. Launch the XML files in Informatica PowerCenter:
+3. Launch the XML files in Informatica PowerCenter or IICS:
    
     Utilize XML mappings and workflows to comprehend the system's architecture and ingest the full source data (full batch load) into the target tables. This approach enables tracking changes (inserts, updates,       deletes, unchanged) and maintaining historical data in the dimension tables.
   
